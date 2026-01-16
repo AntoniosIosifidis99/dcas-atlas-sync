@@ -65,15 +65,15 @@ Then integrate this overlay by following:
 See also `THIRD_PARTY.md` for third-party notices.
 
 ---
+## 🗂️ Project structure (high level)
 
-## Structure
-
+```text
 .
-├── src/dcas/            # Clean-room DCAS overlay modules
-├── scripts/             # Experiment runner scripts
-├── paper_results/       # (Optional) curated CSV artifacts
-├── make_paper_plots.py  # Plot generator from CSV artifacts
-├── INTEGRATION.md       # How to wire DCAS into an external HFL codebase
-├── THIRD_PARTY.md       # Third-party notices and licensing constraints
+├── src/dcas/               # Clean-room DCAS overlay modules
+├── scripts/                # Experiment runner scripts
+├── paper_results/          # (Optional) curated CSV artifacts
+├── make_paper_plots.py     # Plot generator from CSV artifacts
+├── INTEGRATION.md          # How to wire DCAS into an external HFL codebase
+├── THIRD_PARTY.md          # Third-party notices and licensing constraints
 └── README.md
 
