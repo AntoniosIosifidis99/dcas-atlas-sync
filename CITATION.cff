@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: "DCAS Atlas Synchronization"
+message: "If you use this software, please cite our paper and this software release."
+type: software
+authors:
+  - family-names: Iosifidis
+    given-names: Antonios
+  - family-names: Karagiannis
+    given-names: Vasileios
+  - family-names: Schulte
+    given-names: Stefan
+repository-code: "https://github.com/<AntoniosIosifidis99>/<dcas-atlas-sync>"
+license: Apache-2.0
+version: 1.0.0
+date-released: 2026-01-16
