@@ -66,9 +66,14 @@ See also `THIRD_PARTY.md` for third-party notices.
 
 ---
 
-## 🚀 Quick start
+## Structure
 
-### 1) Generate figures from curated CSV artifacts (if included)
-```bash
-python make_paper_plots.py --in_dir paper_results --out_dir figures
+.
+├── src/dcas/            # Clean-room DCAS overlay modules
+├── scripts/             # Experiment runner scripts
+├── paper_results/       # (Optional) curated CSV artifacts
+├── make_paper_plots.py  # Plot generator from CSV artifacts
+├── INTEGRATION.md       # How to wire DCAS into an external HFL codebase
+├── THIRD_PARTY.md       # Third-party notices and licensing constraints
+└── README.md
 
