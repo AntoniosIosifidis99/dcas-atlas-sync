@@ -60,7 +60,7 @@ You must obtain the baseline separately from its upstream source:
 https://github.com/LuminLiu/HierFL
 
 Then integrate this overlay by following:  
-- `INTEGRATION.md` (step-by-step wiring guide)
+- `INTEGRATION.md` (wiring guide)
 
 See also `THIRD_PARTY.md` for third-party notices.
 
