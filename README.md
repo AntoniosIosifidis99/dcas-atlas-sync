@@ -1,59 +1,30 @@
-# dcas-atlas-sync
+# DCAS Atlas Synchronization — Public Research Artifact (Overlay)
 
+Decision-Critical Atlas Synchronization (**DCAS**) is a lightweight **overlay** that supports experiments on **delay- and bandwidth-constrained semantic atlas dissemination** in **hierarchical federated learning** (Client → Edge → Cloud).
 
----
+This repo contains **original code** for:
+- a **control-plane emulator** for atlas update delivery under constraints,
+- **decision-centric synchronization metrics** (e.g., DMR, TTR, VoidAUC; optional wDMR),
+- clean-room utilities for **semantic atlas** handling and **curriculum gating**,
+- scripts and curated CSV artifacts to help **reproduce plots and tables**.
 
-# `README.md` (full)
-
-```markdown
-# Decision-Critical Atlas Synchronization (DCAS) — Public Research Artifact (Overlay)
-
-This repository contains   original code   for:
-- a control-plane emulator for   delay/budget-constrained   atlas dissemination,
-- decision-centric metrics (e.g., DMR / wDMR / TTR / VoidAUC),
-- and clean-room utilities for semantic atlas extraction + curriculum gating.
-
-It is designed to be used as an   overlay   on top of a separately obtained Hierarchical Federated Learning baseline implementation.
+> ✅ **Overlay-only release (Option A):** we do **not** redistribute third-party training code.  
+> You plug this overlay into a separately obtained HFL baseline (see below).
 
 ---
 
-## Paper
+## 📝 Paper
 
-  Title  : Atlas Synchronization in the Hierarchical Federated Learning Continuum  
-  Authors: Antonios Iosifidis,Vasileios Karagiannis,Stefan Schulte  
-  Venue/Year:  
-  PDF/DOI: 
+**Title:** *Atlas Synchronization in the Hierarchical Federated Learning Continuum*  
+**Authors:** Antonios Iosifidis, Vasileios Karagiannis, Stefan Schulte  
+**Venue/Year:** *(to be updated)*  
+**PDF/DOI:** *(to be updated)*  
 
-
-
----
-
-## What this repo provides
-
-### Core contributions implemented
--   Control-plane formulation   of atlas synchronization with:
-  - dissemination delay `d` (in rounds)
-  - dissemination budget `B` (classes per update / per edge)
--   Decision-centric mismatch metrics  
-  - DMR (Decision Mismatch Rate)
-  - wDMR (gap-weighted DMR), if enabled in your pipeline
--   Policies  
-  - Random selection
-  - ACE-greedy
-  - DCAS risk-greedy
--   Clean-room modules  
-  - `src/dcas/atlas.py`: semantic atlas extraction + aggregation
-  - `src/dcas/curriculum.py`: curriculum gating + mismatch helpers
--   Experiment scripts  
-  - `scripts/run_grid_dB.sh`: server runner for constrained dissemination experiments
-
----
-
-## What this repo does NOT include (important)
-
-This repository   does not   redistribute any code from the upstream HierFL baseline and is   not   a fork.
-
-You must obtain the baseline separately from its upstream source:
-
-```text
-https://github.com/LuminLiu/HierFL
+**Suggested citation (temporary):**
+```bibtex
+@misc{iosifidis_dcas_atlas_sync,
+  title   = {Atlas Synchronization in the Hierarchical Federated Learning Continuum},
+  author  = {Iosifidis, Antonios and Karagiannis, Vasileios and Schulte, Stefan},
+  note    = {Preprint / Research Artifact},
+  year    = {202X}
+}
