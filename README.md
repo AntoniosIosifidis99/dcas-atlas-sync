@@ -1,6 +1,6 @@
-# DCAS Atlas Synchronization — Public Research Artifact (Overlay)
+# DCAS Atlas Synchronization 
 
-Decision-Critical Atlas Synchronization (**DCAS**) is a lightweight **overlay** that supports experiments on **delay- and bandwidth-constrained semantic atlas dissemination** in **hierarchical federated learning** (Client → Edge → Cloud).
+Decision-Critical Atlas Synchronization (**DCAS**) is a **overlay** that supports experiments on **delay- and bandwidth-constrained semantic atlas dissemination** in **hierarchical federated learning** (Client → Edge → Cloud).
 
 This repo contains **original code** for:
 - a **control-plane emulator** for atlas update delivery under constraints,
