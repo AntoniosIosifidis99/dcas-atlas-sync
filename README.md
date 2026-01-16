@@ -20,7 +20,7 @@ This repo contains **original code** for:
 **PDF/DOI:** *(to be updated)*  
 
 
-## ✨ What this repository provides
+## What this repository provides
 
 ###  Core contributions implemented
 
