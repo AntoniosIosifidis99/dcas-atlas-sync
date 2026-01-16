@@ -21,10 +21,10 @@ It is designed to be used as an   overlay   on top of a separately obtained Hier
 
   Title  : Atlas Synchronization in the Hierarchical Federated Learning Continuum  
   Authors: Antonios Iosifidis,Vasileios Karagiannis,Stefan Schulte  
-Venue/Year: [Conference/Workshop], [Year]  
-  PDF/DOI  : [Add link here]
+  Venue/Year:  
+  PDF/DOI: 
 
-If you use this artifact, please cite the paper (see   Citation   below).
+
 
 ---
 
