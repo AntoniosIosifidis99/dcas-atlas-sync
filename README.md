@@ -4,7 +4,7 @@ Decision-Critical Atlas Synchronization (**DCAS**) is a lightweight **overlay** 
 
 This repo contains **original code** for:
 - a **control-plane emulator** for atlas update delivery under constraints,
-- **decision-centric synchronization metrics** (e.g., DMR, TTR, VoidAUC;  wDMR),
+- **decision-centric synchronization metrics** (e.g., DMR, TTR, VoidAUC,wDMR),
 - clean-room utilities for **semantic atlas** handling and **curriculum gating**,
 - scripts and curated CSV artifacts to help **reproduce plots and tables**.
 
@@ -22,7 +22,7 @@ This repo contains **original code** for:
 
 ## ✨ What this repository provides
 
-### ✅ Core contributions implemented
+###  Core contributions implemented
 
 **Control-plane formulation of atlas synchronization with explicit constraints**
 - dissemination delay **d** (in rounds)
@@ -52,7 +52,7 @@ This repo contains **original code** for:
 
 ---
 
-## 🚫 What this repository does NOT include (important)
+##  What this repository does NOT include 
 
 This repository **does not redistribute any source code** from the baseline HFL implementation used during development (e.g., HierFL), and it is **not a fork**.
 
@@ -65,7 +65,7 @@ Then integrate this overlay by following:
 See also `THIRD_PARTY.md` for third-party notices.
 
 ---
-## 🗂️ Project structure (high level)
+##  Project structure 
 
 ```text
 .
