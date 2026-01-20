@@ -87,15 +87,7 @@ def decision_void_set_curriculum(
     phase1: float = 0.30,
     phase2: float = 0.70,
 ) -> Set[int]:
-    """Pure decision function: return which void classes would be "unlocked".
 
-    Matches the spirit of Edge.get_curriculum_prototypes but returns only the
-    decision set (void classes), with no side effects.
-
-    Important semantics (aligned with your replay):
-      - If atlas is empty OR we cannot compute distances, decision set is empty.
-        (client receives no synthetic help).
-    """
     if not atlas:
         return set()
 
