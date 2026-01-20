@@ -6,23 +6,12 @@ Baseline Framework Reference:
 - HierFL (https://github.com/LuminLiu/HierFL)
 
 This repository is a **public research artifact (overlay)** for DCAS from:
-*Atlas Synchronization in the Hierarchical Federated Learning Continuum*. :contentReference[oaicite:11]{index=11}
+*Atlas Synchronization in the Hierarchical Federated Learning Continuum* 
 
-It contains **original** overlay code (control-plane logic, metrics, plotting, and clean-room utilities) and does **not** redistribute any third-party HFL training framework.
+It contains **original**  code (control-plane logic, metrics, plotting, and utilities) and does **not** redistribute any third-party HFL training framework.
 
 
 
----
-
-## 3) `THIRD_PARTY.md` (full, copy-paste)
-
-```markdown
-# THIRD_PARTY.md — Third-party code, data, and licensing notes
-
-This repository is a **public research artifact (overlay)** for DCAS from:
-*Atlas Synchronization in the Hierarchical Federated Learning Continuum*. :contentReference[oaicite:11]{index=11}
-
-It contains **original** overlay code (control-plane logic, metrics, plotting, and clean-room utilities) and does **not** redistribute any third-party HFL training framework.
 
 ---
 
