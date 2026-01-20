@@ -15,7 +15,6 @@ We bucket void classes by percentiles of d_k(v):
 
 A staged curriculum unlocks void classes progressively as training advances.
 
-No code is copied from the upstream HierFL repository.
 """
 
 from __future__ import annotations
