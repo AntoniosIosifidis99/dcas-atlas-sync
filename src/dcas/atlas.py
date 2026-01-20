@@ -23,7 +23,6 @@ The code below:
   - supports simple EMA smoothing at the cloud
   - provides payload sizing helpers (useful for bandwidth/budget experiments)
 
-No code is copied from the upstream HierFL repository.
 """
 
 from __future__ import annotations
