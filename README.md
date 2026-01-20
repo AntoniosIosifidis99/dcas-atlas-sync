@@ -32,7 +32,7 @@ This repo contains **original code** for:
 - **DMR** — Decision Mismatch Rate (oracle vs edge cached view)
 - **TTR** — Time-to-Recovery (void accuracy recovery threshold-based)
 - **VoidAUC** — area under the void-accuracy curve
-- *(Optional)* **wDMR** — gap-weighted DMR (if enabled in your evaluation pipeline)
+- **wDMR** — gap-weighted DMR (if enabled in your evaluation pipeline)
 
 **Update selection policies**
 - Random selection  
@@ -46,7 +46,7 @@ This repo contains **original code** for:
 **Experiment runner**
 - `scripts/run_grid_dB.sh` — server runner for constrained dissemination experiments (oracle + constrained policies)
 
-**(Optional) Paper artifacts**
+**Paper artifacts**
 - `paper_results/` — curated CSVs 
 
 
