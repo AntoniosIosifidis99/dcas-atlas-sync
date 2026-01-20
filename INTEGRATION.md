@@ -26,10 +26,10 @@ This overlay provides:
   Control-plane emulator (delay, budget) and update selection policies used in the paper.
 
 - `src/dcas/atlas.py`  
-  Clean-room implementation of semantic atlas extraction + aggregation utilities.
+  Our implementation of semantic atlas extraction + aggregation utilities.
 
 - `src/dcas/curriculum.py`  
-  Clean-room implementation of curriculum gating + decision mismatch helpers.
+  Our implementation of curriculum gating + decision mismatch helpers.
 
 - `scripts/run_grid_dB.sh`  
   Example experiment runner used on a server.
