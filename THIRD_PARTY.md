@@ -43,10 +43,3 @@ This repository does not ship CIFAR-10 data.
 This repository uses standard scientific Python packages (e.g., numpy, pandas, matplotlib) for artifact processing and plotting.
 
 When running training, additional dependencies are determined by the external baseline framework you use.
-
----
-
-## Citation
-
-If you use this repository, please cite the paper:
-*Atlas Synchronization in the Hierarchical Federated Learning Continuum*. :contentReference[oaicite:13]{index=13}
