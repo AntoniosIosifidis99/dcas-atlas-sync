@@ -47,8 +47,8 @@ This repo contains **original code** for:
 - `scripts/run_grid_dB.sh` — server runner for constrained dissemination experiments (oracle + constrained policies)
 
 **(Optional) Paper artifacts**
-- `paper_results/` — curated CSVs (small, reviewer-friendly)
-- `make_paper_plots.py` — generates figures from CSV artifacts
+- `paper_results/` — curated CSVs 
+
 
 ---
 
