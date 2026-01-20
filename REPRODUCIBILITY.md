@@ -12,8 +12,9 @@ This repo provides DCAS control-plane logic, metrics, and plotting. The baseline
 If `paper_results/` is included, you can regenerate plots directly:
 
 ```bash
-python make_paper_plots.py --in_dir paper_results --out_dir figures
-
+python make_paper_plots.py --in_dir paper_results --out_dir figures.
+```
+---
 ## B) Reproduce training runs (requires baseline integration)
 Paper configuration (core)
 From the paper evaluation section: 
@@ -24,17 +25,16 @@ Pathological label skew: 2 classes per client
 Rounds: T = 50
 Constraints: delay d = 5, budget B = 3
 Topology (paper): 5 edges, 50 clients
-Seeds
 Use seeds: 11 12 13 (as in the provided runner script pattern).
-Runner script
+*Runner script
 After integrating DCAS into your baseline (see INTEGRATION.md), run:
 bash scripts/run_grid_dB.sh
-The script runs constrained policies and evaluates them against an existing oracle run.
-Expected outputs
+*The script runs constrained policies and evaluates them against an existing oracle run.
+*Expected outputs
 Each run directory should include (at minimum):
 training_metrics.csv
 cp_metrics.csv
-And your aggregation pipeline should produce the curated CSV artifacts:
+*And your aggregation pipeline should produce the curated CSV artifacts:
 eval_table.csv
 train_curve_long.csv
 cp_curve_long.csv
