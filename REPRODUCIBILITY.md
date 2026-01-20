@@ -1,7 +1,7 @@
 Dataset: CIFAR-10
 Model: ResNet-18
 Pathological label-skew: 2 classes/client
-Topology: paper uses |E|=5 edges, |K|=50 clients (your script uses different values; document both)
+Topology: paper uses |E|=5 edges, |K|=50 clients 
 Constraints: d=5, B=3
 Horizon: T=50
 Metric threshold: TTR α=0.20 
