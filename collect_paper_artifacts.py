@@ -122,9 +122,7 @@ def _parse_eval_text(txt: str) -> Dict[str, Any]:
     return out
 
 def _read_csv_long(path: str, run_name: str, prefix: str) -> List[Dict[str, Any]]:
-    """
-    Reads a CSV with a 'round' column and returns long rows with run_name.
-    """
+    
     rows: List[Dict[str, Any]] = []
     if not os.path.exists(path):
         return rows
@@ -138,11 +136,7 @@ def _read_csv_long(path: str, run_name: str, prefix: str) -> List[Dict[str, Any]
     return rows
 
 def _aggregate_cp_metrics(cp_long_rows: List[Dict[str, Any]], prefix: str="cp_") -> Dict[str, Any]:
-    """
-    Extra aggregates computed from cp_metrics.csv.
-    Expects long rows created by _read_csv_long(..., prefix='cp_') where keys include:
-      cp_bytes_delivered, cp_bytes_sent, cp_triggered_edges, cp_risk_sum_topB_mean, cp_risk_max_mean
-    """
+   
     def _to_float(x: Any) -> float:
         try: return float(x)
         except: return 0.0
