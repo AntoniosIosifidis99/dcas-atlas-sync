@@ -9,7 +9,7 @@ These files were produced by our experiment pipeline (oracle + constrained contr
 
 > Note: We intentionally do not include raw run directories (`runs/`), logs, model checkpoints, or per-round atlas snapshots.
 
----
+----
 
 ## Files
 
