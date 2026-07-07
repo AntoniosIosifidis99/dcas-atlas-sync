@@ -3,7 +3,7 @@ OLD INTEGRATION STYLE
 
 # Integration Guide (Overlay into a separate HierFL checkout)
 
-This repository provides an **overlay** (original code + clean-room modules) for experiments on
+This repository provides an **overlay** (original code + clean-room modules) for experiments on 
 **Decision-Critical Atlas Synchronization (DCAS)** and decision-centric metrics (DMR / wDMR / TTR / VoidAUC).
 
 **Important**:
