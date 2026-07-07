@@ -2,7 +2,7 @@
 
 Decision-Critical Atlas Synchronization (**DCAS**) is a **overlay** that supports experiments on **delay- and bandwidth-constrained semantic atlas dissemination** in **hierarchical federated learning** (Client → Edge → Cloud).
 
-This repo contains **original code** for:
+This repo contains **original code** for: 
 - a **control-plane emulator** for atlas update delivery under constraints,
 - **decision-centric synchronization metrics** (e.g., DMR, TTR, VoidAUC,wDMR),
 - clean-room utilities for **semantic atlas** handling and **curriculum gating**,
