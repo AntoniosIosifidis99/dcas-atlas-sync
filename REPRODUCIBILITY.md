@@ -5,7 +5,7 @@ This document describes how to reproduce the results/figures for:
 
 This repo provides DCAS control-plane logic, metrics, and plotting. The baseline HFL training framework must be obtained separately (see THIRD_PARTY.md).
 
----
+--- 
 
 ## A) Reproduce figures from provided CSV artifacts (no training)
 
